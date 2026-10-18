@@ -1,0 +1,209 @@
+/* Reset */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* Body */
+
+body{
+
+    background:#d8f3dc;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+      background-image: url('../images/atm.jpg');
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+/* Main Container */
+
+.history-container{
+
+    width:700px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+
+    text-align:center;
+
+}
+
+/* Logo */
+
+.logo{
+
+    width:90px;
+
+    height:90px;
+
+    margin-bottom:15px;
+
+}
+
+/* Headings */
+
+h1{
+
+    color:#006400;
+
+    margin-bottom:8px;
+
+}
+
+h2{
+
+    color:#444;
+
+    margin-bottom:20px;
+
+}
+
+h3{
+
+    margin:20px 0;
+
+    color:#006400;
+
+}
+
+/* Customer Details */
+
+.customer-details{
+
+    text-align:left;
+
+    line-height:30px;
+
+}
+
+/* Form */
+
+form{
+
+    text-align:left;
+
+    margin-top:20px;
+
+}
+
+label{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    font-weight:bold;
+
+}
+
+input[type="date"]{
+
+    width:100%;
+
+    padding:10px;
+
+    margin-bottom:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+}
+
+/* Buttons */
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#28a745;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    margin-top:15px;
+
+}
+
+button:hover{
+
+    background:#1e7e34;
+
+}
+
+/* Table */
+
+table{
+
+    width:100%;
+
+    margin-top:20px;
+
+    border-collapse:collapse;
+
+}
+
+table th{
+
+    background:#28a745;
+
+    color:white;
+
+    padding:12px;
+
+}
+
+table td{
+
+    padding:12px;
+
+    border:1px solid #ddd;
+
+    text-align:center;
+
+}
+
+table tr:nth-child(even){
+
+    background:#f2f2f2;
+
+}
+
+/* Line */
+
+hr{
+
+    margin:20px 0;
+
+}

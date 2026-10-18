@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance Enquiry</title>
+
+    <link rel="stylesheet" href="css/balance.css">
+</head>
+
+<body>
+    <img src="images/atm.jpg" alt="ATM Background" class="background-image">
+
+    <div class="balance-container">
+
+        <!-- ATM Logo -->
+       <img src="images/atm.png1.webp" alt="ATM Logo" class="logo">
+
+        <!-- Heading -->
+        <h1>Secure Bank ATM</h1>
+        <h2>Balance Enquiry</h2>
+
+        <hr>
+
+        <!-- Customer Details -->
+        <div class="customer-details">
+
+            <p><strong>Account Holder :</strong> Harini K</p>
+
+            <p><strong>Card Number :</strong> **** **** **** 4567</p>
+
+            <p><strong>Account Type :</strong> Savings</p>
+
+        </div>
+
+        <hr>
+
+        <!-- Balance Section -->
+        <div class="balance-box">
+
+            <h3>Available Balance</h3>
+
+            <p id="balance">Click the button to view your balance.</p>
+
+            <button type="button" onclick="checkBalance()">
+                Check Balance
+            </button>
+
+        </div>
+
+        <hr>
+
+        <!-- Date and Time -->
+        <div class="date-time">
+
+            <p><strong>Date :</strong> <span id="date"></span></p>
+
+            <p><strong>Time :</strong> <span id="time"></span></p>
+
+        </div>
+
+        <br>
+
+        <!-- Back Button -->
+        <button type="button" class="back-btn"
+            onclick="window.location.href='dashboard.html'">
+
+            Back to Dashboard
+
+        </button>
+
+    </div>
+
+    <script src="js/balance.js"></script>
+
+</body>
+
+</html>

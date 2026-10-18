@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>ATM Interface</title>
+
+<link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <img src="images/atm.jpg" alt="ATM Background" class="background-image">
+
+<div class="login-container">
+
+<img src="images/atm.png1.webp" alt="ATM Logo" class="atm-image">
+
+<h1>ATM Interface</h1>
+
+<div class="atm-screen">
+
+<p>WELCOME! Insert your Card Number and PIN</p>
+
+<form id="loginForm">
+
+<label for="cardNumber">
+Card Number
+</label>
+
+<input
+type="text"
+id="cardNumber"
+name="cardNumber"
+placeholder="Enter Card Number"
+required>
+
+<br><br>
+
+<label for="pin">
+PIN
+</label>
+
+<input
+type="password"
+id="pin"
+name="pin"
+placeholder="Enter pin"
+required>
+
+<br><br>
+
+<button type="button"onclick="login()">
+
+Login
+
+</button>
+
+<button type="reset">
+
+Clear
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="js/index.js"></script>
+
+</body>
+
+</html> 

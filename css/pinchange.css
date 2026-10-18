@@ -1,0 +1,184 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+
+body{
+
+    background:#d8f3dc;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+      background-image: url('../images/atm.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Main Container */
+
+.pin-container{
+
+    width:500px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+
+    text-align:center;
+    img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+/* Headings */
+
+h1{
+
+    color:#006400;
+
+    margin-bottom:10px;
+
+}
+
+h2{
+
+    color:#444;
+
+    margin-bottom:20px;
+
+}
+
+/* Customer Details */
+
+.customer-details{
+
+    text-align:left;
+
+    line-height:30px;
+
+    margin-bottom:20px;
+     img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+}
+
+/* Form */
+
+form{
+
+    text-align:left;
+
+}
+
+/* Labels */
+
+label{
+
+    display:block;
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+}
+
+/* Input Boxes */
+
+input[type="password"]
+input[type="text"]{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    font-size:16px;
+}
+
+/* Checkbox */
+
+input[type="checkbox"]{
+
+    margin-right:8px;
+
+}
+
+/* Buttons */
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:15px;
+
+    border:none;
+
+    border-radius:5px;
+
+    background:#28a745;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#1e7e34;
+
+}
+
+/* Message */
+
+#message{
+
+    margin-top:20px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    text-align:center;
+
+}
+
+/* Line */
+
+hr{
+
+    margin:20px 0;
+
+}

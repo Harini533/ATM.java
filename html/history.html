@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Transaction History</title>
+
+<link rel="stylesheet" href="../css/history.css">
+
+</head>
+
+<body>
+    <img src="../images/atm.jpg" alt="ATM Background" class="background-image">
+
+<div class="history-container">
+
+<img src="../images/atm.png1.webp" alt="ATM Logo" class="logo">
+
+<h1>Secure Bank ATM</h1>
+
+<h2>Transaction History</h2>
+
+<hr>
+
+<div class="customer-details">
+
+<p><strong>Account Holder :</strong> Harini K</p>
+
+<p><strong>Card Number :</strong> **** **** **** 4567</p>
+
+<p><strong>Account Type :</strong> Savings</p>
+
+</div>
+
+<hr>
+
+<h3>Select History Period</h3>
+
+<form>
+
+<label>
+
+<input type="radio"
+name="period"
+value="today">
+
+Today
+
+</label>
+
+<label>
+
+<input type="radio"
+name="period"
+value="7days">
+
+Last 7 Days
+
+</label>
+
+<label>
+
+<input type="radio"
+name="period"
+value="30days">
+
+Last 30 Days
+
+</label>
+
+<label>
+
+<input type="radio"
+name="period"
+value="custom">
+
+Custom
+
+</label>
+
+<br>
+
+<label>
+
+Start Date
+
+</label>
+
+<input type="date" id="startDate">
+
+<label>
+
+End Date
+
+</label>
+
+<input type="date" id="endDate">
+
+<button
+type="button"
+onclick="viewHistory()">
+
+View History
+
+</button>
+
+</form>
+
+<hr>
+
+<table>
+
+<tr>
+
+<th>Date</th>
+
+<th>Transaction</th>
+
+<th>Amount</th>
+
+<th>Status</th>
+
+</tr>
+
+<tbody id="historyTable">
+
+</tbody>
+
+</table>
+
+<hr>
+
+<button
+onclick="window.location.href='dashboard.html'">
+
+Back
+
+</button>
+
+</div>
+
+<script src="../js/history.js"></script>
+
+</body>
+
+</html>

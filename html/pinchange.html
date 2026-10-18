@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Change PIN</title>
+
+<link rel="stylesheet" href="../css/pinchange.css">
+
+</head>
+
+<body>
+ 
+    <img src="../images/atm.jpg" alt="ATM Background" class="background-image">
+<div class="pin-container">
+
+<img src="../images/atm.png1.webp" alt="ATM Logo" class="logo">
+
+<h1>Secure Bank ATM</h1>
+
+<h2>Change PIN</h2>
+
+<hr>
+
+<div class="customer-details">
+
+<p><strong>Account Holder :</strong> Harini K</p>
+
+<p><strong>Card Number :</strong> **** **** **** 4567</p>
+
+<p><strong>Account Type :</strong> Savings</p>
+
+</div>
+
+<hr>
+
+<form>
+    <label for="oldPin">Old PIN</label>
+
+<input
+type="password"
+id="oldPin"
+placeholder="Enter Old PIN"
+required>
+
+<label for="newPin">New PIN</label>
+
+<input
+type="password"
+id="newPin"
+placeholder="Enter New PIN"
+required>
+
+<label for="confirmPin">Confirm New PIN</label>
+
+<input
+type="password"
+id="confirmPin"
+placeholder="Confirm New PIN"
+required>
+
+<label>
+
+<input
+type="checkbox"
+onclick="togglePinVisibility()">Show PIN
+</label>
+
+<button
+type="button"
+onclick="changePIN()">
+
+pin change
+
+</button>
+
+<p id="message"></p>
+
+<button type="reset">Clear</button>
+
+<button
+type="button"
+onclick="window.location.href='dashboard.html'">
+
+Back
+
+</button>
+
+
+</form>
+
+</div>
+
+<script src="../js/pinchange.js"></script>
+
+</body>
+
+</html>

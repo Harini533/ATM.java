@@ -1,0 +1,138 @@
+*{
+
+    margin:0;
+
+    padding:500;
+
+    box-sizing:border-box;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body{
+
+    background:#d8f3dc;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+      background-image: url('../images/atm.jpg');
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.withdraw-container{
+
+    width:450px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,0.3);
+
+    text-align:center;
+     img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+}
+
+h1{
+
+    color:#006400;
+
+    margin-bottom:25px;
+
+}
+
+label{
+
+    display:block;
+
+    text-align:left;
+
+    font-weight:bold;
+
+    margin-bottom:8px;
+
+}
+
+input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:15px;
+
+    background:#28a745;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#1e7e34;
+
+}
+
+button[type="reset"]{
+
+    background:#ffc107;
+
+    color:black;
+
+}
+
+button[type="reset"]:hover{
+
+    background:#e0a800;
+
+}
+
+#message{
+
+    margin-top:20px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    color:green;
+
+}
